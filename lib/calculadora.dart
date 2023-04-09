@@ -1,3 +1,4 @@
+import 'package:calculator_flutter_basic/buttonlist.dart';
 import 'package:calculator_flutter_basic/color_button.dart';
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
@@ -12,29 +13,6 @@ class Calculator extends StatefulWidget {
 class _CalculatorState extends State<Calculator> {
   String userInput = "";
   String result = "0";
-
-  List<String> buttonsList = [
-    'C',
-    '(',
-    ')',
-    '/',
-    '7',
-    '8',
-    '9',
-    '*',
-    '4',
-    '5',
-    '6',
-    '+',
-    '1',
-    '2',
-    '3',
-    '-',
-    'AC',
-    '0',
-    '.',
-    '=',
-  ];
 
   @override
   Widget build(BuildContext context) {
