@@ -91,6 +91,13 @@ class _CalculatorState extends State<Calculator> {
   }
 
   handleButtomPress(String text) {
+    if (text == "+/-") {
+      double value;
+      value = double.parse(userInput) * (-1);
+      userInput = value.toString();
+      return;
+    }
+
     if (text == "AC") {
       //Reseta All
       userInput = "";
@@ -100,6 +107,9 @@ class _CalculatorState extends State<Calculator> {
     if (text == "C") {
       //Remove o ultimo char
       userInput = userInput.substring(0, userInput.length - 1);
+      if (userInput.length < 1) {
+        userInput = "0";
+      }
       return;
     }
     if (text == "=") {

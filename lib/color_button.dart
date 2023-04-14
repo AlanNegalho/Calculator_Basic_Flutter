@@ -7,7 +7,7 @@ Color getcolor(String text) {
   if (text == 'AC') {
     return Color.fromARGB(255, 59, 31, 29);
   }
-  if (text == 'C' || text == '(' || text == ')') {
+  if (text == 'C' || text == '%' || text == '+/-') {
     return Color.fromARGB(255, 193, 228, 245);
   }
 
