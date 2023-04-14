@@ -15,3 +15,4 @@ O aplicativo de calculadora suporta as operações básicas de adição, subtra�
 ### Contribuindo  🔃
 Se você quiser contribuir com o projeto, fique à vontade para criar uma branch e enviar um pull request com suas melhorias ou correções de bugs. Certifique-se de seguir as boas práticas de codificação e manter o código organizado.
 
+![Captura de ecrã de 2023-04-13 21-18-21](https://user-images.githubusercontent.com/107214420/231910413-c5f0bf58-728c-4ec0-ad36-66dd99cba3fb.png)
