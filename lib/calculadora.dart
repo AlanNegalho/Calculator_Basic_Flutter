@@ -108,7 +108,7 @@ class _CalculatorState extends State<Calculator> {
       //Remove o ultimo char
       userInput = userInput.substring(0, userInput.length - 1);
       if (userInput.length < 1) {
-        userInput = "0";
+        userInput = " ";
       }
       return;
     }
